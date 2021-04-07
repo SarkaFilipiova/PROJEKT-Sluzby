@@ -245,4 +245,9 @@ p {
         margin: auto;
         padding: 10px;
     }
+
+    .border-bottom {
+       margin-left: 0;
+
+    }
 }
