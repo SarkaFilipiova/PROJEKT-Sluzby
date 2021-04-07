@@ -11,6 +11,15 @@ body {
     max-width: 350px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+}
+
+.border-bottom {
+    border-top: 2px solid #407BFF;
+    max-width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 h1 {
@@ -86,10 +95,22 @@ p {
 }
 
 @media screen and (min-width: 641px) {
+
+    body {
+        width: 641px;
+    }
+
     .buttons {
         display: flex;
         justify-content: center;
         max-width: 560px;
+    }
+
+    p {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     .button-blue button {
@@ -107,6 +128,23 @@ p {
     .section-box {
         display: block;
         margin-right: 10px;
+    }
+
+    .section-box p {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .section-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-box img {
+        margin: auto;
+        padding: 10px;
     }
 }
 
@@ -131,9 +169,15 @@ p {
     }
 
     .buttons {
-        margin-left: auto;
+        display: flex;
+        margin-left: 0;
         margin-right: auto;
         text-align: left;
+        justify-content: flex-start;
+    }
+
+    .button-blue button {
+        margin-left: 0;
     }
 
     h1 {
@@ -181,4 +225,24 @@ p {
         padding: 10px;
     }
     
+    p {
+        font-size: 16px;
+    }
+
+    .section-box p {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .section-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-box img {
+        margin: auto;
+        padding: 10px;
+    }
 }
