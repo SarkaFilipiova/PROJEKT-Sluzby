@@ -157,10 +157,7 @@ p {
     header {
         display: flex;
         margin-top: 80px;
-    }
-
-    .foto-man {
-        order: 2;
+        flex-direction: row-reverse;
     }
 
     p {
@@ -204,24 +201,25 @@ p {
         text-align: left;
     }
 
-    .service-box {
-        order: 2;
-        padding: 10px;
-        margin-left: 40px;
+    .one {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    
     }
 
-    .services-section {
-        order: 1;
+    .service-box {
+        padding: 10px;
     }
 
     .two {
         display: flex;
         max-width: 100%;
+        justify-content: space-between;
     }
 
     .deleg-box {
         max-width: 540px;
-        margin-right: 40px;
         padding: 10px;
     }
     
